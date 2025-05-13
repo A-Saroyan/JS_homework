@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "hello": "echo Hello, Package!",
-    "dev" : "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "Hero",
@@ -13,13 +13,16 @@
     "Devops"
   ],
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
   "author": "",
   "license": "ISC",
-  "description": "",     
+  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
-  
+
+
+
